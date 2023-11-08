@@ -1,0 +1,123 @@
+header 
+{
+    background-color: #4c6c99;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  nav li:last-child {
+    margin-right: 0;
+  }
+  nav a {
+    font-family: Herlvetica;
+	font-size: 24px;
+	color: #fff ;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+  }
+  nav a:hover {
+    color: #091e3a;
+  }
+
+.piePagina{
+	width: 100%;
+	height: auto;
+}
+.piePagina .redesImg{
+    float: right;
+	width: 40px;
+    border-radius: 100px;
+}
+.principal{
+	margin-top: 80px;
+	margin-left: auto;
+	margin-left: auto;
+	width: 100%;
+}
+.principal h1{
+	font-family: 'Bree Serif', serif;
+	font-size: 36px;
+	text-align: center;
+	color: #4c6c99;
+	text-shadow: 2px 3px 2px #EFEAF1;
+	padding-top: 20px;
+}
+.principal p{
+	font-family: 'Bree Serif', serif;
+	font-size: 24px;
+	text-align: center;
+	color: #4c6c99;
+	padding: 0px 100px;
+}
+.principal img{
+	width: 25%;
+	display: block;
+	margin: 25px auto;
+}
+.acerca{
+    margin-top: 80px;
+	margin-left: auto;
+	margin-left: auto;
+	width: 100%;
+}
+.acerca h1{
+    font-family: 'Bree Serif', serif;
+	font-size: 36px;
+	text-align: center;
+	color: #4c6c99;
+	text-shadow: 2px 3px 2px #EFEAF1;
+	padding-top: 20px;
+}
+.acerca img{
+    width: 25%;
+	
+	margin-left: 25px;
+    float: left;
+}
+.acerca p {
+    font-family: 'Bree Serif', serif;
+	font-size: 24px;
+	text-align: justify;
+	color: #4c6c99;
+	padding: 0px 100px;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+  .acerca ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+	font-size: 20px;
+    color: #4c6c99;
+  }
+  
+ .acerca li {
+    margin-bottom: 10px;
+  }
+  .contacto h1{
+    font-family: 'Bree Serif', serif;
+	font-size: 36px;
+	text-align: center;
+	color: #4c6c99;
+	text-shadow: 2px 3px 2px #EFEAF1;
+	padding-top: 20px;
+}
