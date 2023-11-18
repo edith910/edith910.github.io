@@ -1,5 +1,4 @@
-header 
-{
+header{
     background-color: #4c6c99;
     color: #fff;
     padding: 10px;
@@ -8,33 +7,30 @@ header
     left: 0;
     right: 0;
     text-align: center;
-}
-  
-  nav ul {
-    list-style: none;
+} 
+nav ul {
+	list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  nav li {
+} 
+nav li {
     display: inline-block;
     margin-right: 10px;
-  }
-
-  nav li:last-child {
+}
+nav li:last-child {
     margin-right: 0;
-  }
-  nav a {
+}
+nav a{
     font-family: Herlvetica;
 	font-size: 24px;
 	color: #fff ;
 	display: inline-block;
 	padding: 10px;
 	text-decoration: none;
-  }
-  nav a:hover {
+}
+nav a:hover{
     color: #091e3a;
-  }
+}
 .piePagina{
 	width: 100%;
 	height: auto;
@@ -51,79 +47,72 @@ header
 }
 .principal h1{
 	font-family: 'Bree Serif', serif;
-	font-size: 36px;
+	font-size: 30px;
 	text-align: center;
 	color: #4c6c99;
 	text-shadow: 2px 3px 2px #EFEAF1;
-	padding-top: 10px;
+	padding-top: 15px;
 }
 .principal p{
 	font-family: 'Bree Serif', serif;
-	font-size: 24px;
-	text-align: center;
+	font-size: 20px;
+	text-align: justify;
 	color: #4c6c99;
 	padding: 0px 100px;
 }
 .principal img{
-	width: 25%;
+	width: 30%;
 	display: block;
 	margin: 25px auto;
 }
 .acerca{
 	margin-top: 50px;
-	margin-left: 25px;
-	margin-left: 25px;
 	width: 100%;
 }
 .acerca h1{
     font-family: 'Bree Serif', serif;
-	font-size: 36px;
+	font-size: 30px;
 	text-align: center;
 	color: #4c6c99;
 	text-shadow: 2px 3px 2px #EFEAF1;
-	padding-top: 10px;
+	padding-top: 15px;
 }
-.acerca img
-{
+.acerca img{
    float: right;
    width: 25%;
    position: static;
    margin-right: 20%;
    max-width: 100%;
 }
-.acerca p {
+.acerca p{
     font-family: 'Bree Serif', serif;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: justify;
 	color: #4c6c99;
 	padding: 0px 100px;
     display: inline-block;
     vertical-align: middle;
 }
-.acerca ul {
-
+.acerca ul{
 	font-family: 'Bree Serif', serif;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: justify;
 	color: #4c6c99;
 	padding: 0px 100px;
     display: inline-block;
     vertical-align: middle;
 }
-.acerca li {
+.acerca li{
 	margin-bottom: 10px;
 }
-.acerca .union
-{
+.acerca .union{
 	display: flex;
 	align-items: center;
 }
-.acerca .union .uno
-{
+.acerca .union .uno{
 	flex: 1;
 }
-.acerca .union .dos
-{
+.acerca .union .dos{
 	flex: 1;
 }
 .acerca .union .dos img{
@@ -131,37 +120,35 @@ width: 65%;
 height: auto;
 }
 .portafolio{
-	margin-top: 80px;
+	margin-top: 10px;
 	margin-left: auto;
 	width: 100%;
 }
 .portafolio h1{
 	font-family: 'Bree Serif', serif;
-	font-size: 36px;
+	font-size: 30px;
 	text-align: center;
 	color: #4c6c99;
 	text-shadow: 2px 3px 2px #EFEAF1;
-	padding-top: 10px;
+	padding-top: 15px;
 }
 .portafolio p{
 	font-family: 'Bree Serif', serif;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: justify;
 	color: #4c6c99;
 	padding: 0px 100px;
 }
-.portafolio .union {
+.portafolio .union{
 	
 	display: flex;
 	align-items: center;
 }
-.portafolio .union .uno
-{
+.portafolio .union .uno{
 	width: 50%;
 	float: left;
 }
-.portafolio .union .dos
-{
+.portafolio .union .dos{
 	width: 50%;
 	float: right;
 }
@@ -172,13 +159,13 @@ height: auto;
 	background-color: #4c6c99;
 }
 .habilidades{
-	margin-top: 80px;
+	margin-top: 10px;
 	margin-left: auto;
 	width: 100%;
 }
 .habilidades h1{
 	font-family: 'Bree Serif', serif;
-	font-size: 36px;
+	font-size: 30px;
 	text-align: center;
 	color: #4c6c99;
 	text-shadow: 2px 3px 2px #EFEAF1;
@@ -186,52 +173,50 @@ height: auto;
 }
 .habilidades p{
 	font-family: 'Bree Serif', serif;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: justify;
 	color: #4c6c99;
 	padding: 0px 100px;
 }
 .habilidades img{
-	width: 30%;
+	width: 50%;
 	display: block;
 	margin: 25px auto;
 	background-color: #4c6c99;
 }
-.habilidades .union {
+.habilidades .union{
 	display: flex;
 	align-items: center;
 }
-.habilidades .union .uno
-{
+.habilidades .union .uno{
 	width: 50%;
 	float: left;
 }
-.habilidades .union .dos
-{
+.habilidades .union .dos{
 	width: 50%;
 	float: right;
 }
 .contacto{
-	margin-top: 80px;
+	margin-top: 10px;
 	margin-left: auto;
 	width: 100%;
 }
-.contacto h1 {
+.contacto h1{
     font-family: 'Bree Serif', serif;
-	font-size: 36px;
+	font-size: 30px;
 	text-align: center;
 	color: #4c6c99;
 	text-shadow: 2px 3px 2px #EFEAF1;
 	padding-top: 10px;
 }
-.contacto ul {
+.contacto ul{
 	font-family: 'Bree Serif', serif;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: justify;
 	color: #4c6c99;
 	padding: 0px 100px;
     vertical-align: middle;
 }
-.contacto li {
+.contacto li{
 	margin-bottom: 10px;
 }
