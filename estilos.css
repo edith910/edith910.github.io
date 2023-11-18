@@ -46,8 +46,7 @@ header
     border-radius: 100px;
 }
 .principal{
-	margin-top: 80px;
-	margin-left: auto;
+	margin-top: 70px;
 	margin-left: auto;
 	width: 100%;
 }
@@ -57,7 +56,7 @@ header
 	text-align: center;
 	color: #4c6c99;
 	text-shadow: 2px 3px 2px #EFEAF1;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 .principal p{
 	font-family: 'Bree Serif', serif;
@@ -72,7 +71,7 @@ header
 	margin: 25px auto;
 }
 .acerca{
-	margin-top: 80px;
+	margin-top: 50px;
 	margin-left: 25px;
 	margin-left: 25px;
 	width: 100%;
@@ -83,13 +82,15 @@ header
 	text-align: center;
 	color: #4c6c99;
 	text-shadow: 2px 3px 2px #EFEAF1;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 .acerca img
 {
-    width: 25%;
-	margin-left: 25px;
-    float: right;
+   float: right;
+   width: 25%;
+   position: static;
+   margin-right: 20%;
+   max-width: 100%;
 }
 .acerca p {
     font-family: 'Bree Serif', serif;
@@ -113,31 +114,25 @@ header
 .acerca li {
 	margin-bottom: 10px;
 }
-.contacto h1 {
-    font-family: 'Bree Serif', serif;
-	font-size: 36px;
-	text-align: center;
-	color: #4c6c99;
-	text-shadow: 2px 3px 2px #EFEAF1;
-	padding-top: 20px;
+.acerca .union
+{
+	display: flex;
+	align-items: center;
 }
-.habilidades{
-	margin-top: 80px;
-	margin-left: auto;
-	margin-left: auto;
-	width: 100%;
+.acerca .union .uno
+{
+	flex: 1;
 }
-.habilidades h1{
-	font-family: 'Bree Serif', serif;
-	font-size: 36px;
-	text-align: center;
-	color: #4c6c99;
-	text-shadow: 2px 3px 2px #EFEAF1;
-	padding-top: 20px;
+.acerca .union .dos
+{
+	flex: 1;
+}
+.acerca .union .dos img{
+width: 65%;
+height: auto;
 }
 .portafolio{
 	margin-top: 80px;
-	margin-left: auto;
 	margin-left: auto;
 	width: 100%;
 }
@@ -147,5 +142,97 @@ header
 	text-align: center;
 	color: #4c6c99;
 	text-shadow: 2px 3px 2px #EFEAF1;
-	padding-top: 20px;
+	padding-top: 10px;
+}
+.portafolio p{
+	font-family: 'Bree Serif', serif;
+	font-size: 24px;
+	text-align: justify;
+	color: #4c6c99;
+	padding: 0px 100px;
+}
+.portafolio .union {
+	
+	display: flex;
+	align-items: center;
+}
+.portafolio .union .uno
+{
+	width: 50%;
+	float: left;
+}
+.portafolio .union .dos
+{
+	width: 50%;
+	float: right;
+}
+.portafolio img{
+	width: 50%;
+	display: block;
+	margin: 25px auto;
+	background-color: #4c6c99;
+}
+.habilidades{
+	margin-top: 80px;
+	margin-left: auto;
+	width: 100%;
+}
+.habilidades h1{
+	font-family: 'Bree Serif', serif;
+	font-size: 36px;
+	text-align: center;
+	color: #4c6c99;
+	text-shadow: 2px 3px 2px #EFEAF1;
+	padding-top: 10px;
+}
+.habilidades p{
+	font-family: 'Bree Serif', serif;
+	font-size: 24px;
+	text-align: justify;
+	color: #4c6c99;
+	padding: 0px 100px;
+}
+.habilidades img{
+	width: 30%;
+	display: block;
+	margin: 25px auto;
+	background-color: #4c6c99;
+}
+.habilidades .union {
+	display: flex;
+	align-items: center;
+}
+.habilidades .union .uno
+{
+	width: 50%;
+	float: left;
+}
+.habilidades .union .dos
+{
+	width: 50%;
+	float: right;
+}
+.contacto{
+	margin-top: 80px;
+	margin-left: auto;
+	width: 100%;
+}
+.contacto h1 {
+    font-family: 'Bree Serif', serif;
+	font-size: 36px;
+	text-align: center;
+	color: #4c6c99;
+	text-shadow: 2px 3px 2px #EFEAF1;
+	padding-top: 10px;
+}
+.contacto ul {
+	font-family: 'Bree Serif', serif;
+	font-size: 24px;
+	text-align: justify;
+	color: #4c6c99;
+	padding: 0px 100px;
+    vertical-align: middle;
+}
+.contacto li {
+	margin-bottom: 10px;
 }

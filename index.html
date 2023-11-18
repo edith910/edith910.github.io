@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="icon" type="text/x-icon" href="img/portafolio.ico">
     <title>Portafolio Edith</title>
 </head>
 <body>
-    <header>
+<header>
   <nav>
     <ul>
       <li><a href="#inicio">Home</a></li>
       <li><a href="#acerca-de">Acerca de mí</a></li>
       <li><a href="#portafolio">Portafolio</a></li>
-      <li><a href="#contacto">Contacto</a></li>
       <li><a href="#habilidades">Mis habilidades</a></li>
+      <li><a href="#contacto">Contacto</a></li>
     </ul>
   </nav>
 </header>
-
     <div id="inicio" class="principal">
 		<h1>Mi portafolio</h1>
 		<p>Maria Edith Galván Pérez.</p>
@@ -27,57 +27,91 @@
             Espero te guste el contenido de mi portafolio.
             <img src="img/foto1.jpg">
 	  </div> 
-      <div id="acerca-de" class="acerca">
+    <div id="acerca-de" class="acerca">
         <h1>Un poco sobre de mi....</h1>
-         <p>Soy estudiante en la UAQ, facultad de Informática, actualmente curso el tercer semestre de la carrera de Ingeniería de Software. Soy de San Miguel de Allende, Gto, sin embargo, vivo en un rancho llamado Los Galvanes. Me considero una persona extrovertida. Me encanta conocer personas y hacer muchos amigos. Actualmente, tengo muchos amigos en la facultad. 
-            <br> <br>Algunos de mis pasatiempos y gustos son: </p>
-            <img src="img/gustos.jpg">
-        <ul>
+         <p>Soy estudiante en la UAQ, facultad de Informática, actualmente curso el tercer semestre de la carrera de Ingeniería de Software. Soy de San Miguel de Allende, Gto, sin embargo, vivo en un rancho llamado Los Galvanes. Me considero una chica extrovertida. Me encanta conocer personas y hacer nuevos amigos. 
+            <br>Algunos de mis pasatiempos y gustos: </p>
+      <div class="union">
+        <div class="uno">
+          <ul>
             <li>Me encanta leer, en especial novelas romanticas.</li>
-            <li>Amo el   red velvet.</li>
+            <li>Amo el pastel red velvet.</li>
             <li>Soy amante de las fresas.</li>
             <li>Disfruto el smoothie y crepa de frutos rojos.</li>
             <li>Me gusta el k-pop y el pop.</li>
             <li>Me encanta la música de BTS.</li>
-            <li>Mi novio, ji.</li>
-            <li>Pero lo que mas consume mi tiempo libre, son los k-dramas.</li>
+            <li>Me agrada mucho pasar tiempo con mi novio.</li>
+            <li>Sin embargo lo que más consume mi tiempo libre, es ver k-dramas.</li>
           </ul>
+        </div>
+        <div class="dos">
+          <img src="img/gustos.jpg">
+        </div>
       </div>
-      
+      </div>
       <div id="portafolio" class="portafolio">
-        <!-- contenido del div -->
-        <h1>Mis proyectos.</h1>
-      </div>
-      
-      <div id="contacto" class="contacto">
-        <h1>Póngase en contacto conmigo</h1>
-        <ul>
-            <li>Teléfono: 123-456-7890</li>
-            <li>Correo: correo@ejemplo.com</li>
-            <li>Dirección: Calle Falsa 123, Ciudad Ficticia</li>
-        </ul>
-        <form action="enviar.php" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-        <div id="contacto" >
-            
+        <h1>Mis Proyectos.</h1>
+        <p>La mayoria de proyectos que he realizado, van enfocados a proyectos finales en en la universidad e incluso en bachillerato, donde fue que desarrolle de mejor manera mis habilidades en HTML, por lo que hice muchas paginas web de fiversos temas.<br> Algunos de ellos, son los siguientes: </p>
+        <div class="union"> 
+          <div class="uno">
+            <p>
+              Pagina web de una boutique, donde encontraras ropa de dama, caballero y niños. Utilice HTML y CSS.
+            </p>
+            <img src="img/tienda.jpg">
           </div>
+          <div class="dos">
+            <p>
+              Programa referente a una clinica de salud, donde podemos tener bases de datos sobre, pacientes, médicos, medicamentos, etc. Para esteproyecto utilice Java.
+            </p>
+            <img src="img/SMA.jpg">
+          </div>
+        </div>
+        <div class="union"> 
+          <div class="uno">
+            <p>
+              Programa relacionado a un sistema de un banco, donde un usuario puede hacer diversos movimientos, como lo pueden ser transferencias. Para este proyecto utilice C#.
+            </p>
+            <img src="img/banco.jpg">
+          </div>
+          <div class="dos">
+            <p>
+              Programa referente a una clinica de salud, donde podemos tener bases de datos sobre, pacientes, médicos, medicamentos, etc. Para esteproyecto utilice Java.
+            </p>
+            <img src="img/clinica.jpg">
+          </div>
+        </div>
       </div>
-      
       <div id="habilidades" class="habilidades">
-        <!-- contenido del div -->
-        <h1>Mis cualidades y logros profecionales.</h1>
-      </div>
+        <h1>Mis habilidades duras y blandas.</h1>
+        <p>En el entorno laboral actual, tanto las habilidades blandas como las duras desempeñan un papel crucial en el éxito profesional, por lo que relatre un poco sobre las que poseo.</p> 
+        <div class="union"> 
+          <div class="uno">
+            <p>
+              Habilidades Duras: <br>
+              Tengo conocimiento sobre varios lenguajes, como lo son:  C#, Java, y en estos momentos me encuentro aprendiendo sobre Python, tengo mayor conocimiento en HTML, CSS y un poco de JavaScript, aunque claro que puedo mejorar en los lenguajes ya mencionados.
+            </p>
+            <img src="img/lenguajes.jpg">
+          </div>
+          <div class="dos">
+            <p>
+              Habilidades Blandas: <br>
+              Respecto a estas habilidades, puedo decir que cuento con la capacidad de comunicación, la buena gestión de tiempo, liderazgo, inteligencia emocional y dedicación a mis proyectos y trabajos. 
+            </p>
+            <img src="img/habilidadesDB.jpg">
+          </div>
+        </div>
+      </div> 
+      <div id="contacto" class="contacto">
+          <h1>Manten contacto conmigo</h1>
+        <ul>
+            <li>Teléfono: 415-151-3082</li>
+            <li>Correo: edith134p@gmail.com</li>
+            <li>Dirección: Calle caletto 114, </li>
+        </ul>
+      </div>   
     <div class="piePagina">
 				<a href="https://www.facebook.com"> <img src="img/Facebook.jpg" class="redesImg"></a>
 				<a href="https://www.instagram.com"> <img src="img/Instagram.jpg" class="redesImg"></a>
-				<a href="https://www.twitter.com"> <img src="img/Twitter.jpg" class="redesImg"></a>
-		
+				<a href="https://www.twitter.com"> <img src="img/Twitter.jpg" class="redesImg"></a>		
 	</div>
 </body>
